@@ -1,0 +1,532 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header__section {
+    background-color: #014E56;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    align-items: center;
+}
+
+.header__item__link  {
+    text-decoration: none;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-transform: lowercase;
+    color:  #FFFFFF;
+;
+}
+
+.header__contact {
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.header__wrapp {
+    display: flex;
+    gap: 50px;
+}
+
+.header__burger {
+    display: none;
+}
+/* @media only screen and (max-width:) {
+
+} */
+
+/* tablet = planshet */
+
+@media (max-width: 768px) {
+    /*  */
+}
+
+/* mobile = phone */
+@media (max-width: 535px) {
+    .header__section {
+        padding: 5px;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .header__contact {
+        display: none;
+    }
+
+    .header__logo {
+        width: 128px;
+        height: 32px;
+    }
+
+    .header__burger {
+      display: block;
+    }
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero__title {
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 156%;
+    color: #fff;
+}
+
+.hero__hr {
+    width: 50px;
+    height: 4px;
+    background: #f67e7e;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.hero__text {
+    max-width: 730px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+}
+
+/* computer */
+@media (max-width: 1000px) {
+    .hero {
+        gap: 50px;
+    }
+}
+
+/* planshet */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero__hr {
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width: 535px) {
+    .hero__title {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .hero__text {
+        max-width: 327px;
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 187%;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+
+
+
+.main_section {
+    background: #004047;
+    padding: 20px;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+.main_heading {
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.main_list {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_item {
+    width: 250px;
+    padding: 20px;
+    background: #012f34;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box-1{
+  width: 250px;
+  height: {
+    300px
+  };
+}
+
+.main__box{
+  font-family: Livvic;
+  width: 250px;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.main_item_heading {
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #79c8c7;
+}
+
+.main_item_title {
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+}
+
+.main_item_plus {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+/* Media Queries */
+@media (max-width: 930px) {
+    .main_list {
+        gap: 20px;
+    }
+
+    .main_item {
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    .main_heading {
+        font-family: "Livvic", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .main_list {
+        gap: 15px;
+    }
+
+    .main_item {
+        width: 250px;
+    }
+}
+
+@media (max-width: 595px) {
+    .main_item {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #014e56;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 1. Team Section */
+.team__section {
+  background-color: #004047;
+  padding: 80px 0 100px;
+  text-align: center;
+}
+
+.team__title {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.team__card {
+  background-color: #012f34;
+  padding: 30px 20px 45px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.team__avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+  margin-bottom: 15px;
+}
+
+.team__card h3 {
+  color: #79c8c7;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.team__role {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.team__btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f67e7e;
+  color: #012f34;
+  font-size: 18px;
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.team__card--active {
+  background-color: #002529;
+}
+
+.team__quote {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.team__socials a {
+  color: #ffffff;
+  margin: 0 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.team__btn--close {
+  background-color: #79c8c7;
+}
+
+/* 2. Clients Section */
+.clients__section {
+  background-color: #012f34;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.clients__title {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.clients__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+/* 3. Ready Section */
+.ready__section {
+  background-color: #f67e7e;
+  padding: 50px 0;
+}
+
+.ready {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ready__heding {
+  font-size: 36px;
+  color: #012f34;
+}
+
+.ready__contact {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #012f34;
+  padding: 10px 25px;
+  border: 2px solid #012f34;
+  border-radius: 40px;
+}
+
+/* 4. Footer Section */
+.footer {
+  background-color: #002529;
+  padding: 50px 0;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.footer__logo {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer__nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.footer__contact p {
+  color: #92b5b7;
+  line-height: 1.6;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.footer__socials a {
+  color: #ffffff;
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer__copy {
+  margin-top: 30px;
+  color: #92b5b7;
+}
+
+/* ====================================
+   RESPONSIVE (RESPONSIVLIK)
+   ==================================== */
+
+@media (max-width: 768px) {
+  .team__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ready {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 560px) {
+  .team__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clients__logos {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer__right {
+    align-items: center;
+  }
+
+  .footer__socials a {
+    margin: 0 10px;
+  }
+}
+
